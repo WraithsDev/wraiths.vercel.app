@@ -13,7 +13,7 @@ export default function PorfileDetails({ discord }: {discord: DiscordUserData | 
           <h1 className='text-2xl font-semibold'> Hello there, I&apos;m <span className='text-2xl font-semibold text-violet-500 hover:opacity-75 cursor-pointer'>@{githubUsername}</span> </h1>
           <ul className='flex flex-row font-medium gap-x-1'>
             <li key={1}>he/him  ・ </li>
-            <li key={2}>Full-Stack Developer</li>
+            <li key={2}>Discord Developer</li>
           </ul>
         </div>
         {/* Spotify, VSCode and dark mode */}
