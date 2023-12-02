@@ -6,21 +6,21 @@ import { TbBrandCSharp, TbBrandNextjs } from 'react-icons/tb';
 
 export const projects: { name: string; description: string; iconURL: string; link: string; }[] = [
   {
-    name: 'Haberler',
-    description: 'It allows you to view local news via Discord.',
-    link: 'https://bit.ly/haberlerbot',
-    iconURL: 'https://cdn.discordapp.com/icons/1147505872625483819/71eca3384e61703feeba4448a633d5ca.png',
+    name: 'Dark Uptime',
+    description: '7/24 Ücretsiz Discord Bot Uptime Hizmeti.',
+    link: 'https://bit.ly/darkuptime',
+    iconURL: 'https://media.discordapp.net/attachments/1097986792713617499/1167488497985273926/dclogoturuncu.png?ex=657c73e4&is=6569fee4&hm=6a94f58afa1f0b16a13fd5cae4be92db54ebd5d4606e0ebd05e82481f9db9ff5&=&format=webp&quality=lossless&width=614&height=614',
   },
   {
-    name: 'Raven',
-    description: 'It provides access to free projects and codes.',
-    link: 'https://discord.gg/altyapilar',
-    iconURL: 'https://cdn.discordapp.com/icons/1096085223881576549/c2a37851263289188afde2ea135e0665.png',
+    name: 'Altron 🎵',
+    description: 'The perfect music bot! Feature rich with high quality music!',
+    link: 'https://bit.ly/altrondavet',
+    iconURL: 'https://i.hizliresim.com/gohzo83.png',
   },
 ];
 
-export const githubUsername = 'ewgsta';
-export const discordId = '341585045397438464';
+export const githubUsername = 'WraithsDev';
+export const discordId = '843136836947410945';
 
 export const socialMediaAccounts: { name: string; link: string; iconURL: IconType }[] = [
   {
@@ -35,29 +35,17 @@ export const socialMediaAccounts: { name: string; link: string; iconURL: IconTyp
   },
   {
     name: 'Instagram',
-    link: 'https://instagram.com/ewgsta',
+    link: 'https://instagram.com/',
     iconURL: BsInstagram,
   },
   {
     name: 'X',
-    link: 'https://twitter.com/ewgsta',
+    link: 'https://twitter.com/',
     iconURL: BsTwitterX,
   },
 ];
 
 export const technologiesAndLanguages: { name: string; iconURL: IconType }[] = [
-  {
-    name: 'Typescript',
-    iconURL: SiTypescript,
-  },
-  {
-    name: 'Next.js',
-    iconURL: TbBrandNextjs,
-  },
-  {
-    name: 'Tailwindcss',
-    iconURL: SiTailwindcss,
-  },
   {
     name: 'Node.JS',
     iconURL: DiNodejsSmall,
@@ -73,9 +61,5 @@ export const technologiesAndLanguages: { name: string; iconURL: IconType }[] = [
   {
     name: 'Express',
     iconURL: SiExpress,
-  },
-  {
-    name: 'Firebase',
-    iconURL: SiFirebase,
   },
 ];
