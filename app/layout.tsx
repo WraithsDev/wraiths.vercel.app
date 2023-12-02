@@ -2,9 +2,9 @@ import type { Metadata } from 'next';
 import './globals.css';
 
 export const metadata: Metadata = {
-  title: 'Ewgsta',
-  description: ' Hi, I’m @ewgsta I\'m currently learning I am currently living in Adana, Turkey.',
-  themeColor: '#8B5CF6',
+  title: 'Wraiths',
+  description: ' Hi, I’m @Wraiths I\'m currently learning I am currently living in Antalya, Turkey.',
+  themeColor: '#30953c',
   robots: 'index, follow',
   viewport: 'width=device-width, initial-scale=1, maximum-scale=1',
   icons: 'https://cdn.discordapp.com/emojis/753954444902924339.png',
