@@ -10,7 +10,7 @@ export default function PorfileDetails({ discord }: {discord: DiscordUserData | 
     <div className='container mx-auto bg-zinc-900/30 w-11/12 sm:w-9/12 md:w-7/12 rounded-md flex flex-col-reverse my-16 py-10 px-8 justify-between md:flex-row md:items-center'>
       <div className='md:w-8/12'>
         <div className='space-y-2'>
-          <h1 className='text-2xl font-semibold'> Hello there, I&apos;m <span className='text-2xl font-semibold text-orange-500 hover:opacity-75 cursor-pointer'>@{githubUsername}</span> </h1>
+          <h1 className='text-2xl font-semibold'> Hello there, I&apos;m <span className='text-2xl font-semibold text-cyan-600 hover:opacity-75 cursor-pointer'>@{githubUsername}</span> </h1>
           <ul className='flex flex-row font-medium gap-x-1'>
             <li key={1}>he/him  ・ </li>
             <li key={2}>Discord Developer</li>
