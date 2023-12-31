@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 import './globals.css';
 
 export const metadata: Metadata = {
-  title: 'Wraiths',
+  title: 'Wraiths Dev',
   description: ' Hi, I’m @Wraiths I\'m currently learning I am currently living in Antalya, Turkey.',
   themeColor: '#30953c',
   robots: 'index, follow',
