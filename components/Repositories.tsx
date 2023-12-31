@@ -14,7 +14,7 @@ export default function Repositories({ github }: { github: GithubRepositoriesDat
       </div>
       <div className='grid gap-4 md:grid-cols-2'>
         {github ? github.sort((a, b) => b.stargazers_count - a.stargazers_count).slice(0, 4).map((data, key) => (
-          <div className="w-full rounded-lg bg-zinc-900/30 hover:bg-zinc-900/70 border border-zinc-900/30 hover:border-violet-500 p-4 cursor-pointer transition-colors duration-200" key={key}>
+          <div className="w-full rounded-lg bg-zinc-900/30 hover:bg-zinc-900/70 border border-zinc-900/30 hover:border-cyan-600 p-4 cursor-pointer transition-colors duration-200" key={key}>
             <div className="flex justify-between items-center">
               <Link href={`https://github.com/${githubUsername}/${data.name}`}><h1 className="font-semibold text-violet-500 hover:opacity-75 truncate">{data.name}</h1></Link>
               <div className=" text-sm px-2 py-1 rounded-2xl border border-solid border-gray-700">Public</div>
