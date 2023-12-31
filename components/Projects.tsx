@@ -14,7 +14,7 @@ export default function Projects() {
       <div className="grid gap-4 md:grid-cols-2">
         {projects.map(({ name, description, link, iconURL }, index) => (
           <div className='area' key={index}>
-            <Link href={link} className='rounded-md focusRing overflow-x-hidden cursor-pointer p-4 transition duration-200 bg-zinc-900/30 hover:bg-zinc-900/70 border border-zinc-900/30 hover:border-violet-500 items-center justify-between flex space-x-2'>
+            <Link href={link} className='rounded-md focusRing overflow-x-hidden cursor-pointer p-4 transition duration-200 bg-zinc-900/30 hover:bg-zinc-900/70 border border-zinc-900/30 hover:border-cyan-600 items-center justify-between flex space-x-2'>
               <div className='line-clamp-2'>
                 <h2 className='font-semibold text-zinc-200 truncate'>{name}</h2>
                 <p className='text-zinc-500 line-clamp-2'>{description}</p>
