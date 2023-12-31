@@ -9,7 +9,7 @@ export const projects: { name: string; description: string; iconURL: string; lin
     name: 'Dark Uptime',
     description: '7/24 Ücretsiz Discord Bot Uptime Hizmeti.',
     link: 'https://bit.ly/darkuptime',
-    iconURL: 'https://media.discordapp.net/attachments/1097986792713617499/1167488497985273926/dclogoturuncu.png?ex=657c73e4&is=6569fee4&hm=6a94f58afa1f0b16a13fd5cae4be92db54ebd5d4606e0ebd05e82481f9db9ff5&=&format=webp&quality=lossless&width=614&height=614',
+    iconURL: 'https://media.discordapp.net/attachments/1097986792713617499/1167488497700057178/dckrmzlogo.png?ex=65a15de4&is=658ee8e4&hm=895c72c0ac870455628c0d413ca74d7ee4a227c57a373345e9e77ae353ca66b5&=&format=png&quality=lossless&width=614&height=614',
   },
   {
     name: 'Altron 🎵',
@@ -33,26 +33,12 @@ export const socialMediaAccounts: { name: string; link: string; iconURL: IconTyp
     link: 'https://discord.com/' + discordId,
     iconURL: BsDiscord,
   },
-  {
-    name: 'Instagram',
-    link: 'https://instagram.com/',
-    iconURL: BsInstagram,
-  },
-  {
-    name: 'X',
-    link: 'https://twitter.com/',
-    iconURL: BsTwitterX,
-  },
 ];
 
 export const technologiesAndLanguages: { name: string; iconURL: IconType }[] = [
   {
     name: 'Node.JS',
     iconURL: DiNodejsSmall,
-  },
-  {
-    name: 'C#',
-    iconURL: TbBrandCSharp,
   },
   {
     name: 'MongoDB',
