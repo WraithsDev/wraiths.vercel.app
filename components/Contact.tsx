@@ -10,7 +10,7 @@ export default function Contact() {
       </div>
       <div className='grid gap-4 md:grid-cols-2'>
         {socialMediaAccounts.map((props, key) => (
-          <Link key={key} href={props.link} className='rounded-md focusRing overflow-x-hidden cursor-pointer p-4 transition duration-200 border bg-zinc-900/30 hover:bg-zinc-900/70 border-zinc-900/30 hover:border-violet-500 items-center justify-between flex space-x-2'>
+          <Link key={key} href={props.link} className='rounded-md focusRing overflow-x-hidden cursor-pointer p-4 transition duration-200 border bg-zinc-900/30 hover:bg-zinc-900/70 border-zinc-900/30 hover:border-cyan-600 items-center justify-between flex space-x-2'>
             <div className='line-clamp-2'>
               <h2 className='font-semibold text-zinc-200 truncate'>{props.name}</h2>
               <p className='text-zinc-400 line-clamp-2'>You can follow me on {props.name}.</p>
