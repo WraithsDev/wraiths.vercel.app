@@ -1,7 +1,7 @@
 import { IconType } from 'react-icons';
-import { BsDiscord, BsGithub, BsInstagram, BsTwitterX } from 'react-icons/bs';
+import { BsDiscord, BsGithub, BsInstagram, BsTwitterX, BsYoutube } from 'react-icons/bs';
 import { DiNodejsSmall } from 'react-icons/di';
-import { SiExpress, SiFirebase, SiMongodb, SiTailwindcss, SiTypescript } from 'react-icons/si';
+import { SiExpress, SiFirebase, SiMongodb, SiTailwindcss, SiTypescript, SiJavascript, SiCss3, SiHtml5, SiPhp } from 'react-icons/si';
 import { TbBrandCSharp, TbBrandNextjs } from 'react-icons/tb';
 
 export const projects: { name: string; description: string; iconURL: string; link: string; }[] = [
@@ -51,15 +51,15 @@ export const technologiesAndLanguages: { name: string; iconURL: IconType }[] = [
   },
   {
     name: 'PHP',
-    iconURL: DiPhp,
+    iconURL: SiPhp,
   },
   {
     name: 'HTML',
-    iconURL: FaHtml5,
+    iconURL: SiHtml5,
   },
   {
     name: 'CSS',
-    iconURL: IoLogoCss3,
+    iconURL: SiCss3,
   },
   {
     name: 'MongoDB',
