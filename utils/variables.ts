@@ -12,10 +12,10 @@ export const projects: { name: string; description: string; iconURL: string; lin
     iconURL: 'https://media.discordapp.net/attachments/1097986792713617499/1167488497700057178/dckrmzlogo.png?ex=65a15de4&is=658ee8e4&hm=895c72c0ac870455628c0d413ca74d7ee4a227c57a373345e9e77ae353ca66b5&=&format=png&quality=lossless&width=614&height=614',
   },
   {
-    name: 'Altron 🎵',
-    description: 'The perfect music bot! Feature rich with high quality music!',
-    link: 'https://bit.ly/altrondavet',
-    iconURL: 'https://i.hizliresim.com/gohzo83.png',
+    name: 'SMMPANELCINIZ',
+    description: 'En güvenilir ve En Kaliteli Discord, Sosyal Medya Hizmetleri!',
+    link: 'https://smmpanelciniz.com.tr/',
+    iconURL: 'https://media.discordapp.net/attachments/1207315024243331082/1220928288994889820/Mor1.png?ex=6610b913&is=65fe4413&hm=e721fb6f85ded9ed895864a74ffbbd4cf48525efa21b2055c204aac7d3478ec2&=&format=png&quality=lossless&width=600&height=600',
   },
 ];
 
@@ -33,12 +33,33 @@ export const socialMediaAccounts: { name: string; link: string; iconURL: IconTyp
     link: 'https://discord.com/' + discordId,
     iconURL: BsDiscord,
   },
+  {
+    name: 'Youtube Channel',
+    link: 'https://youtube.com/@WraithsDev',
+    iconURL: BsYoutube,
+  },
 ];
 
 export const technologiesAndLanguages: { name: string; iconURL: IconType }[] = [
   {
     name: 'Node.JS',
     iconURL: DiNodejsSmall,
+  },
+  {
+    name: 'JavaScript',
+    iconURL: SiJavascript,
+  },
+  {
+    name: 'PHP',
+    iconURL: DiPhp,
+  },
+  {
+    name: 'HTML',
+    iconURL: FaHtml5,
+  },
+  {
+    name: 'CSS',
+    iconURL: IoLogoCss3,
   },
   {
     name: 'MongoDB',
