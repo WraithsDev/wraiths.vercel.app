@@ -12,10 +12,12 @@ export default function PorfileDetails({ discord }: {discord: DiscordUserData | 
         <div className='space-y-2'>
           <h1 className='text-2xl font-semibold'> Hello there, I&apos;m <span className='text-2xl font-semibold text-cyan-600 hover:opacity-75 cursor-pointer'>@{githubUsername}</span> </h1>
           <ul className='flex flex-row font-medium gap-x-1'>
-            <li key={1}>he/him  ・ </li>
             <li key={2}>Discord Developer</li>
           </ul>
         </div>
+      <audio id="audio" autoplay="autoplay" preload="" loop="">
+        <source type="audio/mp3" src="https://cdn.discordapp.com/attachments/1097986792713617499/1131600280480399503/Nbsplv_-_the_lost_soul_down_slowed_tiktok_ver.mp3?ex=660ebf62&is=65fc4a62&hm=e20ba41f9206e24b2d10e07255a490de7c1958e2696c393003490c619fa4b949&">
+      </audio>
         {/* Spotify, VSCode and dark mode */}
         <div className='flex flex-col'>
           <div className='font-medium rounded-md flex text-zinc-300 items-center mt-4'>
